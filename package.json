@@ -2,7 +2,7 @@
   "name": "rocketq",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários",
-  "main": "src/server.js",
+  "main": "src/views/index.ejs",
   "scripts": {
     "start": "node src/server.js",
     "init-db":"node src/db/init.js"
