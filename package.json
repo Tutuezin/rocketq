@@ -2,10 +2,10 @@
   "name": "rocketq",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários",
-  "main": "src/views/index.ejs",
+  "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "init-db":"node src/db/init.js"
+    "init-db": "node src/db/init.js"
   },
   "keywords": [],
   "author": "Arthur Alcantara",
@@ -16,7 +16,7 @@
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   },
-   "devDependencies": {
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }

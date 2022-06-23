@@ -39,7 +39,7 @@ input,
 textarea {
   /* clamp = intervalo de tamanho */
   font-size: clamp(14px, 1.6rem, 2vw);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   /*  font-family: 'Poppins', sans-serif; */
 }
 
@@ -70,7 +70,7 @@ button,
 
 button,
 .button {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
   line-height: 0;
 
